@@ -58,7 +58,7 @@ ROOT_URLCONF = 'kellyweb.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['/home/django-apps/kellyweb/templates'],
+        'DIRS': ['/home/django-apps/Kellywebsite/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
