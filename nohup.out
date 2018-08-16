@@ -1,0 +1,11 @@
+[05/Jul/2018 07:33:07] "GET / HTTP/1.1" 200 16348
+Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+[05/Jul/2018 07:33:50] "GET / HTTP/1.1" 400 58990
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 05, 2018 - 07:32:36
+Django version 2.0.7, using settings 'kellyweb.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+CommandError: "178.62.59.224" is not a valid port number or address:port pair.

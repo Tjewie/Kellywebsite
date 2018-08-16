@@ -1,0 +1,55 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    
+</head>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: 'grey';
+}
+</style>
+<body <body style="padding-left: 20px; padding-top: 20px">
+
+<ul>
+  <li><a href="home">Home</a></li>
+  <li><a href="calculator">Kelly Calculator</a></li>
+  <li><a href="about">About</a></li>
+
+ </ul>
+
+<header style="border-color: DodgerBlue;"><font color="black" size=16;">Hello World</header></font>
+
+
+<img src="{% static 'kellycalc/coolsmiley.png' %}" style="max-width: 300px"/>
+
+</body>
+</html>
+
+
+
+
